@@ -5,6 +5,7 @@ f.close()
 print()
 
 import os
+
 print(os.getcwd())
 print(os.listdir('/home/oben/Udemy-Complete-Python-3-Bootcamp'))
 
@@ -23,19 +24,16 @@ print()
 
 for folder , sub_folders , files in os.walk("/home/oben/Udemy-Complete-Python-3-Bootcamp/14 - Advanced Python Modules"): 
     print("Currently looking at folder: "+ folder)
-
     print('\n')
 
     print("THE SUBFOLDERS ARE: ")
     for sub_fold in sub_folders:
         print("\t Subfolder: "+sub_fold )
-    
     print('\n')
     
     print("THE FILES ARE: ")
     for f in files:
         print("\t File: "+f)
-    
     print('\n')
 
 

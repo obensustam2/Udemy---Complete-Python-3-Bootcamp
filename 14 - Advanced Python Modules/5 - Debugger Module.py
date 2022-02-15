@@ -7,7 +7,7 @@ z = 3
 result = y + z
 print(result)
 
-# Set a trace using Python Debugger
+# Set a trace using Python Debugger, just before the problem source
 pdb.set_trace()
 
 result2 = y+x
